@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Forca</h1>
+        <div id="cadastro">
+            <h2>Cadastrar Palavra</h2>
+            <form id="form-cadastro">
+                <input type="text" id="nova-palavra" placeholder="Digite a nova palavra">
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <div id="jogo">
+            <h2>Iniciar Novo Jogo</h2>
+            <button id="novo-jogo">Novo Jogo</button>
+            <div id="palavra">
+                <!-- Espaços para letras da palavra -->
+            </div>
+            <div id="mensagem"></div>
+            <div id="entrada">
+                <input type="text" id="letra" maxlength="1" placeholder="Digite uma letra">
+                <button id="adivinhar">Adivinhar</button>
+            </div>
+            <div id="forca">
+                <pre id="boneco"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
