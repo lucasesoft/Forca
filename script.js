@@ -82,11 +82,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function atualizarBoneco() {
         const partes = [
             ' O ',
-            ' O \n/',
-            ' O \n/|',
-            ' O \n/|\\',
-            ' O \n/|\\ \n/',
-            ' O \n/|\\ \n/ \\'
+            ' O\n/',
+            ' O\n/|',
+            ' O\n/|\\',
+            ' O\n/|\\ \n/',
+            ' O\n/|\\ \n/ \\'
         ];
         boneco.textContent = partes[tentativas - 1] || '';
     }
